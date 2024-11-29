@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+}
+
+
+.main {
+	background: #fdfdfd;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+
+}
+
+.main .cont {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 20px;
+	
+}
+
+.main .form {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.main .form form {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	padding: 20px;
+	margin: 10px;
+	border: solid 2px black;
+	width: 350px;
+	background:transparent;
+	border-radius: 20px;
+	box-shadow: 0 0 15px 10px #777;
+}
+.main .form form input,select{
+    border-radius: 10px;
+    padding: 10px;
+}
+.main .form .name, .state, .dob {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	border: none;
+}
+
+.main .form .btn #btn-1{
+	width: 150px;
+	background: red;
+	border-radius: 10px;
+	padding: 7px;
+	margin: 10px;
+	
+} 
+.main .form .btn #btn-2{
+	width: 150px;
+	background: green;
+	border-radius: 10px;
+	padding: 7px;
+	
+} 
+#btn{
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+}
+.register{
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+}
